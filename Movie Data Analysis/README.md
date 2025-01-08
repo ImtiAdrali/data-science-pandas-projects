@@ -47,8 +47,6 @@ Explore trends in movie budgets over time.
 📊 Sample Code
 Here’s a snippet of the code used for analysis:
 
-python
-Copy code
 # Load the dataset
 import pandas as pd
 data = pd.read_csv('movies.csv')
@@ -70,19 +68,13 @@ plt.show()
 🚀 How to Run
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/your-username/movie-analysis.git
 cd movie-analysis
 Install the required libraries:
 
-bash
-Copy code
 pip install pandas matplotlib seaborn
 Run the Jupyter Notebook or Python scripts:
 
-bash
-Copy code
 jupyter notebook movie_analysis.ipynb
 📈 Visualizations
 Some examples of the visualizations included:
@@ -92,22 +84,4 @@ Heatmap: Correlation between numerical features.
 Line Plot: Trends in movie runtime over the years.
 🏗 Project Structure
 plaintext
-Copy code
-movie-analysis/
-│
-├── data/
-│   └── movies.csv               # Dataset file
-├── notebooks/
-│   └── movie_analysis.ipynb     # Jupyter Notebook for analysis
-├── src/
-│   ├── data_cleaning.py         # Script for cleaning data
-│   ├── data_visualization.py    # Script for visualizations
-│   └── advanced_analysis.py     # Script for insights and advanced analysis
-├── README.md                    # Project documentation
-└── requirements.txt             # Required Python libraries
-🤝 Contributions
-Contributions are welcome! If you have ideas to improve this project or want to add more features, feel free to submit a pull request.
-
-📜 License
-This project is licensed under the MIT License.
 

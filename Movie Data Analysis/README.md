@@ -48,8 +48,8 @@ Explore trends in movie budgets over time.
 Here’s a snippet of the code used for analysis:
 
 # Load the dataset
-import pandas as pd
-data = pd.read_csv('movies.csv')
+```import pandas as pd
+data = pd.read_csv('movies.csv')```
 
 # Top 10 highest-grossing movies
 top_grossing = data.sort_values(by='gross', ascending=False).head(10)

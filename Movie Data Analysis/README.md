@@ -74,7 +74,7 @@ cd movie-analysis
 Install the required libraries:
 
 pip install pandas matplotlib seaborn
-Run the Jupyter Notebook or Python scripts:
+Run the Jupyter Notebook or Python scripts:```
 
 jupyter notebook movie_analysis.ipynb
 📈 Visualizations
